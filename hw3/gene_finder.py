@@ -2,7 +2,7 @@
 """
 Created on Sun Feb  2 11:24:42 2014
 
-@author: Jennifer   Wei
+@author: Jennifer Wei
 (Received some help from Maor and Subhash)
 """
 
