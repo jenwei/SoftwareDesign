@@ -15,6 +15,5 @@ def get_multiple_of_list(L,n):
     for i in range(len(L)):
         L[i] *= n
     return L
-
-if __name__ == '__main__':
-    print get_doubles_then_triples([1, 4, 8])
+#issue - aliasing
+#add L = [L]
