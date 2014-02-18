@@ -54,3 +54,9 @@ do_four(print_line_row)
 print_plus_row()
 do_four(print_line_row)
 print_plus_row()
+
+'''
+Great work, think about how you could generalize your
+do_twice/do_four functions to make a more generalized
+print_grid(n) function!
+'''
