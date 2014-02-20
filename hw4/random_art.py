@@ -105,4 +105,4 @@ for i in range(0,350):
                 
         p[i,j]=(int(new_r),int(new_g),int(new_b))
 
-im.save('im',"JPEG")
+im.save('im2',"JPEG")
