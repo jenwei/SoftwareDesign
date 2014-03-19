@@ -4,17 +4,13 @@ Created on Wed Feb 26 22:28:21 2014
 
 @author: CharlieMouton and JenniferWei
 
-Charlie's fb code: CAAEuAis8fUgBANEcpy6pnuIwr8IZBLFo3MT7N2m2xbgkecbZCps2CTbm3OY
-fN9nbLZAS8ZBQaVzqGPMcfP3p4Dma1eH2YRvNGxGLr4xzPuSpZBsYAVi4BMPUp7HTaNkbNddDEZC9Z
-Blt5zC3bf9HICmYAJFPZC7mU4zQFHksF1eTRlf9E2RpypFhZBJ3tqkYYCKwZD
-
-
 """
 
 from pattern.web import *
 import numpy
 import re
-f = Facebook(license='CAAEuAis8fUgBANEcpy6pnuIwr8IZBLFo3MT7N2m2xbgkecbZCps2CTbm3OYfN9nbLZAS8ZBQaVzqGPMcfP3p4Dma1eH2YRvNGxGLr4xzPuSpZBsYAVi4BMPUp7HTaNkbNddDEZC9ZBlt5zC3bf9HICmYAJFPZC7mU4zQFHksF1eTRlf9E2RpypFhZBJ3tqkYYCKwZD')
+lkey = '' #Insert your FB License Key Here!
+f = Facebook(license=lkey)
 me = f.profile()
 #print me #prints out information of license (id,name,birthday,gender,country)
 listOfFriends = ["Keith Runde Jones","Mia McDonald","Dylan Wagner",
